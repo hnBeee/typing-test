@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Battle</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.socket.io/4.8.0/socket.io.min.js"></script>
+  <script src="game.js" defer></script>
+</head>
+<body>
+  <div class="game-container">
+    <h1>Typing Battle</h1>
+    <p id="word-display">Word will appear here</p>
+    <input type="text" id="input-field" placeholder="Type here..." autofocus>
+    <p id="progress">Your progress: 0%</p>
+    <p id="opponent-progress">Opponent progress: 0%</p>
+    <button id="mute-button">Mute</button>
+  </div>
+</body>
+</html>
